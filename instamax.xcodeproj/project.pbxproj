@@ -16,6 +16,10 @@
 		ED1D51B9256196A9003A5D35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED1D51B7256196A9003A5D35 /* LaunchScreen.storyboard */; };
 		ED1D51C4256196AA003A5D35 /* instamaxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1D51C3256196AA003A5D35 /* instamaxTests.swift */; };
 		ED1D51CF256196AA003A5D35 /* instamaxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1D51CE256196AA003A5D35 /* instamaxUITests.swift */; };
+		EDD0232A25619ACE00F7351C /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD0232925619ACE00F7351C /* ExploreViewController.swift */; };
+		EDD0232F25619B8000F7351C /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD0232E25619B8000F7351C /* CameraViewController.swift */; };
+		EDD0233425619DF000F7351C /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD0233325619DF000F7351C /* NotificationViewController.swift */; };
+		EDD0233925619E0A00F7351C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD0233825619E0A00F7351C /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		ED1D51CA256196AA003A5D35 /* instamaxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = instamaxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED1D51CE256196AA003A5D35 /* instamaxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instamaxUITests.swift; sourceTree = "<group>"; };
 		ED1D51D0256196AA003A5D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDD0232925619ACE00F7351C /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		EDD0232E25619B8000F7351C /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		EDD0233325619DF000F7351C /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		EDD0233825619E0A00F7351C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +150,10 @@
 			isa = PBXGroup;
 			children = (
 				ED1D51AD256196A5003A5D35 /* HomeViewController.swift */,
+				EDD0232925619ACE00F7351C /* ExploreViewController.swift */,
+				EDD0232E25619B8000F7351C /* CameraViewController.swift */,
+				EDD0233325619DF000F7351C /* NotificationViewController.swift */,
+				EDD0233825619E0A00F7351C /* ProfileViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -303,8 +315,12 @@
 			files = (
 				ED1D51AE256196A5003A5D35 /* HomeViewController.swift in Sources */,
 				ED1D51AA256196A5003A5D35 /* AppDelegate.swift in Sources */,
+				EDD0232A25619ACE00F7351C /* ExploreViewController.swift in Sources */,
+				EDD0233425619DF000F7351C /* NotificationViewController.swift in Sources */,
 				ED1D51B4256196A5003A5D35 /* instamax.xcdatamodeld in Sources */,
 				ED1D51AC256196A5003A5D35 /* SceneDelegate.swift in Sources */,
+				EDD0233925619E0A00F7351C /* ProfileViewController.swift in Sources */,
+				EDD0232F25619B8000F7351C /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
