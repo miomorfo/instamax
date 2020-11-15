@@ -20,6 +20,15 @@
 		EDD0232F25619B8000F7351C /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD0232E25619B8000F7351C /* CameraViewController.swift */; };
 		EDD0233425619DF000F7351C /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD0233325619DF000F7351C /* NotificationViewController.swift */; };
 		EDD0233925619E0A00F7351C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD0233825619E0A00F7351C /* ProfileViewController.swift */; };
+		EDD023442561A03200F7351C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD023432561A03200F7351C /* LoginViewController.swift */; };
+		EDD0234C2561A04200F7351C /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD0234B2561A04200F7351C /* RegistrationViewController.swift */; };
+		EDD023562561A0AB00F7351C /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD023552561A0AB00F7351C /* PostViewController.swift */; };
+		EDD0235B2561A0C600F7351C /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD0235A2561A0C600F7351C /* SettingViewController.swift */; };
+		EDD023602561A0E500F7351C /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD0235F2561A0E500F7351C /* ListViewController.swift */; };
+		EDD023652561A10600F7351C /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD023642561A10600F7351C /* SearchViewController.swift */; };
+		EDD0236A2561A13900F7351C /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD023692561A13900F7351C /* SearchResultViewController.swift */; };
+		EDD0236F2561A17600F7351C /* PostEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD0236E2561A17600F7351C /* PostEditorViewController.swift */; };
+		EDD023742561A1A700F7351C /* PulishPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD023732561A1A700F7351C /* PulishPostViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +68,15 @@
 		EDD0232E25619B8000F7351C /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		EDD0233325619DF000F7351C /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		EDD0233825619E0A00F7351C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		EDD023432561A03200F7351C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EDD0234B2561A04200F7351C /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		EDD023552561A0AB00F7351C /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		EDD0235A2561A0C600F7351C /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		EDD0235F2561A0E500F7351C /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		EDD023642561A10600F7351C /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		EDD023692561A13900F7351C /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
+		EDD0236E2561A17600F7351C /* PostEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEditorViewController.swift; sourceTree = "<group>"; };
+		EDD023732561A1A700F7351C /* PulishPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulishPostViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,11 +167,8 @@
 		ED1D51E025619738003A5D35 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				ED1D51AD256196A5003A5D35 /* HomeViewController.swift */,
-				EDD0232925619ACE00F7351C /* ExploreViewController.swift */,
-				EDD0232E25619B8000F7351C /* CameraViewController.swift */,
-				EDD0233325619DF000F7351C /* NotificationViewController.swift */,
-				EDD0233825619E0A00F7351C /* ProfileViewController.swift */,
+				EDD0234125619FFC00F7351C /* Others */,
+				EDD0233D25619F6000F7351C /* Tabs */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -181,6 +196,42 @@
 				ED1D51B7256196A9003A5D35 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		EDD0233D25619F6000F7351C /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				ED1D51AD256196A5003A5D35 /* HomeViewController.swift */,
+				EDD0232925619ACE00F7351C /* ExploreViewController.swift */,
+				EDD0232E25619B8000F7351C /* CameraViewController.swift */,
+				EDD0233325619DF000F7351C /* NotificationViewController.swift */,
+				EDD0233825619E0A00F7351C /* ProfileViewController.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		EDD0234125619FFC00F7351C /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				EDD023422561A00600F7351C /* Onboarding */,
+				EDD023552561A0AB00F7351C /* PostViewController.swift */,
+				EDD0235A2561A0C600F7351C /* SettingViewController.swift */,
+				EDD0235F2561A0E500F7351C /* ListViewController.swift */,
+				EDD023642561A10600F7351C /* SearchViewController.swift */,
+				EDD023692561A13900F7351C /* SearchResultViewController.swift */,
+				EDD0236E2561A17600F7351C /* PostEditorViewController.swift */,
+				EDD023732561A1A700F7351C /* PulishPostViewController.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		EDD023422561A00600F7351C /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				EDD023432561A03200F7351C /* LoginViewController.swift */,
+				EDD0234B2561A04200F7351C /* RegistrationViewController.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,13 +364,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDD023652561A10600F7351C /* SearchViewController.swift in Sources */,
+				EDD023562561A0AB00F7351C /* PostViewController.swift in Sources */,
+				EDD023442561A03200F7351C /* LoginViewController.swift in Sources */,
 				ED1D51AE256196A5003A5D35 /* HomeViewController.swift in Sources */,
+				EDD0236F2561A17600F7351C /* PostEditorViewController.swift in Sources */,
+				EDD0235B2561A0C600F7351C /* SettingViewController.swift in Sources */,
 				ED1D51AA256196A5003A5D35 /* AppDelegate.swift in Sources */,
 				EDD0232A25619ACE00F7351C /* ExploreViewController.swift in Sources */,
+				EDD023602561A0E500F7351C /* ListViewController.swift in Sources */,
+				EDD023742561A1A700F7351C /* PulishPostViewController.swift in Sources */,
+				EDD0234C2561A04200F7351C /* RegistrationViewController.swift in Sources */,
 				EDD0233425619DF000F7351C /* NotificationViewController.swift in Sources */,
 				ED1D51B4256196A5003A5D35 /* instamax.xcdatamodeld in Sources */,
 				ED1D51AC256196A5003A5D35 /* SceneDelegate.swift in Sources */,
 				EDD0233925619E0A00F7351C /* ProfileViewController.swift in Sources */,
+				EDD0236A2561A13900F7351C /* SearchResultViewController.swift in Sources */,
 				EDD0232F25619B8000F7351C /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
