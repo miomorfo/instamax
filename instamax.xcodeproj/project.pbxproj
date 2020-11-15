@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		ED1D51AA256196A5003A5D35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1D51A9256196A5003A5D35 /* AppDelegate.swift */; };
 		ED1D51AC256196A5003A5D35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1D51AB256196A5003A5D35 /* SceneDelegate.swift */; };
-		ED1D51AE256196A5003A5D35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1D51AD256196A5003A5D35 /* ViewController.swift */; };
+		ED1D51AE256196A5003A5D35 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1D51AD256196A5003A5D35 /* HomeViewController.swift */; };
 		ED1D51B1256196A5003A5D35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED1D51AF256196A5003A5D35 /* Main.storyboard */; };
 		ED1D51B4256196A5003A5D35 /* instamax.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED1D51B2256196A5003A5D35 /* instamax.xcdatamodeld */; };
 		ED1D51B6256196A9003A5D35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED1D51B5256196A9003A5D35 /* Assets.xcassets */; };
@@ -39,7 +39,7 @@
 		ED1D51A6256196A5003A5D35 /* instamax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = instamax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED1D51A9256196A5003A5D35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED1D51AB256196A5003A5D35 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ED1D51AD256196A5003A5D35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED1D51AD256196A5003A5D35 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		ED1D51B0256196A5003A5D35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED1D51B3256196A5003A5D35 /* instamax.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = instamax.xcdatamodel; sourceTree = "<group>"; };
 		ED1D51B5256196A9003A5D35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -101,12 +101,10 @@
 		ED1D51A8256196A5003A5D35 /* instamax */ = {
 			isa = PBXGroup;
 			children = (
-				ED1D51A9256196A5003A5D35 /* AppDelegate.swift */,
-				ED1D51AB256196A5003A5D35 /* SceneDelegate.swift */,
-				ED1D51AD256196A5003A5D35 /* ViewController.swift */,
-				ED1D51AF256196A5003A5D35 /* Main.storyboard */,
-				ED1D51B5256196A9003A5D35 /* Assets.xcassets */,
-				ED1D51B7256196A9003A5D35 /* LaunchScreen.storyboard */,
+				ED1D51E225619760003A5D35 /* Models */,
+				ED1D51E125619750003A5D35 /* Views */,
+				ED1D51E025619738003A5D35 /* Controllers */,
+				ED1D51DF256196C3003A5D35 /* Resources */,
 				ED1D51BA256196A9003A5D35 /* Info.plist */,
 				ED1D51B2256196A5003A5D35 /* instamax.xcdatamodeld */,
 			);
@@ -129,6 +127,48 @@
 				ED1D51D0256196AA003A5D35 /* Info.plist */,
 			);
 			path = instamaxUITests;
+			sourceTree = "<group>";
+		};
+		ED1D51DF256196C3003A5D35 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ED1D51A9256196A5003A5D35 /* AppDelegate.swift */,
+				ED1D51AB256196A5003A5D35 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ED1D51E025619738003A5D35 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ED1D51AD256196A5003A5D35 /* HomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ED1D51E125619750003A5D35 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ED1D51E3256197D1003A5D35 /* Storyboards */,
+				ED1D51B5256196A9003A5D35 /* Assets.xcassets */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ED1D51E225619760003A5D35 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ED1D51E3256197D1003A5D35 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				ED1D51AF256196A5003A5D35 /* Main.storyboard */,
+				ED1D51B7256196A9003A5D35 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,7 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED1D51AE256196A5003A5D35 /* ViewController.swift in Sources */,
+				ED1D51AE256196A5003A5D35 /* HomeViewController.swift in Sources */,
 				ED1D51AA256196A5003A5D35 /* AppDelegate.swift in Sources */,
 				ED1D51B4256196A5003A5D35 /* instamax.xcdatamodeld in Sources */,
 				ED1D51AC256196A5003A5D35 /* SceneDelegate.swift in Sources */,
