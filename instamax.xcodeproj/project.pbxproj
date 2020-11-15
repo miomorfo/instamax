@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED1D51AA256196A5003A5D35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1D51A9256196A5003A5D35 /* AppDelegate.swift */; };
+		ED1D51AC256196A5003A5D35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1D51AB256196A5003A5D35 /* SceneDelegate.swift */; };
+		ED1D51AE256196A5003A5D35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1D51AD256196A5003A5D35 /* ViewController.swift */; };
+		ED1D51B1256196A5003A5D35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED1D51AF256196A5003A5D35 /* Main.storyboard */; };
+		ED1D51B4256196A5003A5D35 /* instamax.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED1D51B2256196A5003A5D35 /* instamax.xcdatamodeld */; };
+		ED1D51B6256196A9003A5D35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED1D51B5256196A9003A5D35 /* Assets.xcassets */; };
+		ED1D51B9256196A9003A5D35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED1D51B7256196A9003A5D35 /* LaunchScreen.storyboard */; };
+		ED1D51C4256196AA003A5D35 /* instamaxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1D51C3256196AA003A5D35 /* instamaxTests.swift */; };
+		ED1D51CF256196AA003A5D35 /* instamaxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1D51CE256196AA003A5D35 /* instamaxUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED1D51C0256196AA003A5D35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED1D519E256196A5003A5D35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED1D51A5256196A5003A5D35;
+			remoteInfo = instamax;
+		};
+		ED1D51CB256196AA003A5D35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED1D519E256196A5003A5D35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED1D51A5256196A5003A5D35;
+			remoteInfo = instamax;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED1D51A6256196A5003A5D35 /* instamax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = instamax.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED1D51A9256196A5003A5D35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED1D51AB256196A5003A5D35 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ED1D51AD256196A5003A5D35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED1D51B0256196A5003A5D35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED1D51B3256196A5003A5D35 /* instamax.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = instamax.xcdatamodel; sourceTree = "<group>"; };
+		ED1D51B5256196A9003A5D35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED1D51B8256196A9003A5D35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED1D51BA256196A9003A5D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED1D51BF256196AA003A5D35 /* instamaxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = instamaxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED1D51C3256196AA003A5D35 /* instamaxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instamaxTests.swift; sourceTree = "<group>"; };
+		ED1D51C5256196AA003A5D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED1D51CA256196AA003A5D35 /* instamaxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = instamaxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED1D51CE256196AA003A5D35 /* instamaxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instamaxUITests.swift; sourceTree = "<group>"; };
+		ED1D51D0256196AA003A5D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED1D51A3256196A5003A5D35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1D51BC256196AA003A5D35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1D51C7256196AA003A5D35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED1D519D256196A5003A5D35 = {
+			isa = PBXGroup;
+			children = (
+				ED1D51A8256196A5003A5D35 /* instamax */,
+				ED1D51C2256196AA003A5D35 /* instamaxTests */,
+				ED1D51CD256196AA003A5D35 /* instamaxUITests */,
+				ED1D51A7256196A5003A5D35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED1D51A7256196A5003A5D35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED1D51A6256196A5003A5D35 /* instamax.app */,
+				ED1D51BF256196AA003A5D35 /* instamaxTests.xctest */,
+				ED1D51CA256196AA003A5D35 /* instamaxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED1D51A8256196A5003A5D35 /* instamax */ = {
+			isa = PBXGroup;
+			children = (
+				ED1D51A9256196A5003A5D35 /* AppDelegate.swift */,
+				ED1D51AB256196A5003A5D35 /* SceneDelegate.swift */,
+				ED1D51AD256196A5003A5D35 /* ViewController.swift */,
+				ED1D51AF256196A5003A5D35 /* Main.storyboard */,
+				ED1D51B5256196A9003A5D35 /* Assets.xcassets */,
+				ED1D51B7256196A9003A5D35 /* LaunchScreen.storyboard */,
+				ED1D51BA256196A9003A5D35 /* Info.plist */,
+				ED1D51B2256196A5003A5D35 /* instamax.xcdatamodeld */,
+			);
+			path = instamax;
+			sourceTree = "<group>";
+		};
+		ED1D51C2256196AA003A5D35 /* instamaxTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED1D51C3256196AA003A5D35 /* instamaxTests.swift */,
+				ED1D51C5256196AA003A5D35 /* Info.plist */,
+			);
+			path = instamaxTests;
+			sourceTree = "<group>";
+		};
+		ED1D51CD256196AA003A5D35 /* instamaxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED1D51CE256196AA003A5D35 /* instamaxUITests.swift */,
+				ED1D51D0256196AA003A5D35 /* Info.plist */,
+			);
+			path = instamaxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED1D51A5256196A5003A5D35 /* instamax */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED1D51D3256196AA003A5D35 /* Build configuration list for PBXNativeTarget "instamax" */;
+			buildPhases = (
+				ED1D51A2256196A5003A5D35 /* Sources */,
+				ED1D51A3256196A5003A5D35 /* Frameworks */,
+				ED1D51A4256196A5003A5D35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = instamax;
+			productName = instamax;
+			productReference = ED1D51A6256196A5003A5D35 /* instamax.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED1D51BE256196AA003A5D35 /* instamaxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED1D51D6256196AA003A5D35 /* Build configuration list for PBXNativeTarget "instamaxTests" */;
+			buildPhases = (
+				ED1D51BB256196AA003A5D35 /* Sources */,
+				ED1D51BC256196AA003A5D35 /* Frameworks */,
+				ED1D51BD256196AA003A5D35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED1D51C1256196AA003A5D35 /* PBXTargetDependency */,
+			);
+			name = instamaxTests;
+			productName = instamaxTests;
+			productReference = ED1D51BF256196AA003A5D35 /* instamaxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED1D51C9256196AA003A5D35 /* instamaxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED1D51D9256196AA003A5D35 /* Build configuration list for PBXNativeTarget "instamaxUITests" */;
+			buildPhases = (
+				ED1D51C6256196AA003A5D35 /* Sources */,
+				ED1D51C7256196AA003A5D35 /* Frameworks */,
+				ED1D51C8256196AA003A5D35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED1D51CC256196AA003A5D35 /* PBXTargetDependency */,
+			);
+			name = instamaxUITests;
+			productName = instamaxUITests;
+			productReference = ED1D51CA256196AA003A5D35 /* instamaxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED1D519E256196A5003A5D35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					ED1D51A5256196A5003A5D35 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					ED1D51BE256196AA003A5D35 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = ED1D51A5256196A5003A5D35;
+					};
+					ED1D51C9256196AA003A5D35 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = ED1D51A5256196A5003A5D35;
+					};
+				};
+			};
+			buildConfigurationList = ED1D51A1256196A5003A5D35 /* Build configuration list for PBXProject "instamax" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED1D519D256196A5003A5D35;
+			productRefGroup = ED1D51A7256196A5003A5D35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED1D51A5256196A5003A5D35 /* instamax */,
+				ED1D51BE256196AA003A5D35 /* instamaxTests */,
+				ED1D51C9256196AA003A5D35 /* instamaxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED1D51A4256196A5003A5D35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1D51B9256196A9003A5D35 /* LaunchScreen.storyboard in Resources */,
+				ED1D51B6256196A9003A5D35 /* Assets.xcassets in Resources */,
+				ED1D51B1256196A5003A5D35 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1D51BD256196AA003A5D35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1D51C8256196AA003A5D35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED1D51A2256196A5003A5D35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1D51AE256196A5003A5D35 /* ViewController.swift in Sources */,
+				ED1D51AA256196A5003A5D35 /* AppDelegate.swift in Sources */,
+				ED1D51B4256196A5003A5D35 /* instamax.xcdatamodeld in Sources */,
+				ED1D51AC256196A5003A5D35 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1D51BB256196AA003A5D35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1D51C4256196AA003A5D35 /* instamaxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1D51C6256196AA003A5D35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1D51CF256196AA003A5D35 /* instamaxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED1D51C1256196AA003A5D35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED1D51A5256196A5003A5D35 /* instamax */;
+			targetProxy = ED1D51C0256196AA003A5D35 /* PBXContainerItemProxy */;
+		};
+		ED1D51CC256196AA003A5D35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED1D51A5256196A5003A5D35 /* instamax */;
+			targetProxy = ED1D51CB256196AA003A5D35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED1D51AF256196A5003A5D35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED1D51B0256196A5003A5D35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED1D51B7256196A9003A5D35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED1D51B8256196A9003A5D35 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED1D51D1256196AA003A5D35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED1D51D2256196AA003A5D35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED1D51D4256196AA003A5D35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8V6QS755Y;
+				INFOPLIST_FILE = instamax/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.copycat.instamax.instamax;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED1D51D5256196AA003A5D35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8V6QS755Y;
+				INFOPLIST_FILE = instamax/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.copycat.instamax.instamax;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED1D51D7256196AA003A5D35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8V6QS755Y;
+				INFOPLIST_FILE = instamaxTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.copycat.instamax.instamaxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/instamax.app/instamax";
+			};
+			name = Debug;
+		};
+		ED1D51D8256196AA003A5D35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8V6QS755Y;
+				INFOPLIST_FILE = instamaxTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.copycat.instamax.instamaxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/instamax.app/instamax";
+			};
+			name = Release;
+		};
+		ED1D51DA256196AA003A5D35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8V6QS755Y;
+				INFOPLIST_FILE = instamaxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.copycat.instamax.instamaxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = instamax;
+			};
+			name = Debug;
+		};
+		ED1D51DB256196AA003A5D35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8V6QS755Y;
+				INFOPLIST_FILE = instamaxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.copycat.instamax.instamaxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = instamax;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED1D51A1256196A5003A5D35 /* Build configuration list for PBXProject "instamax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED1D51D1256196AA003A5D35 /* Debug */,
+				ED1D51D2256196AA003A5D35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED1D51D3256196AA003A5D35 /* Build configuration list for PBXNativeTarget "instamax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED1D51D4256196AA003A5D35 /* Debug */,
+				ED1D51D5256196AA003A5D35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED1D51D6256196AA003A5D35 /* Build configuration list for PBXNativeTarget "instamaxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED1D51D7256196AA003A5D35 /* Debug */,
+				ED1D51D8256196AA003A5D35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED1D51D9256196AA003A5D35 /* Build configuration list for PBXNativeTarget "instamaxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED1D51DA256196AA003A5D35 /* Debug */,
+				ED1D51DB256196AA003A5D35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ED1D51B2256196A5003A5D35 /* instamax.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ED1D51B3256196A5003A5D35 /* instamax.xcdatamodel */,
+			);
+			currentVersion = ED1D51B3256196A5003A5D35 /* instamax.xcdatamodel */;
+			path = instamax.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ED1D519E256196A5003A5D35 /* Project object */;
+}
