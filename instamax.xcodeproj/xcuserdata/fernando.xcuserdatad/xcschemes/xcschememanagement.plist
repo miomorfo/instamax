@@ -6,8 +6,28 @@
 	<dict>
 		<key>instamax.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>ED1D51A5256196A5003A5D35</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ED1D51BE256196AA003A5D35</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ED1D51C9256196AA003A5D35</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
