@@ -194,10 +194,42 @@ class LoginViewController: UIViewController {
 		usernameEmailField.resignFirstResponder()
 		
 		guard let usernameEmail = usernameEmailField.text, !usernameEmail.isEmpty,
-			  let passoword = passwordField.text, !passoword.isEmpty, passoword.count >= 8 else {
+			  let password = passwordField.text, !password.isEmpty, password.count >= 8 else {
 			return
 		}
 		// login funcion
+		// new vars for login logic
+		var username : String?
+		var email: String?
+		
+		if usernameEmail.contains("@"), usernameEmail.contains("."){
+			//email
+			print("es un correo")
+			email =  usernameEmail
+		}
+		else{
+			//username
+			username = usernameEmail
+			print("es un nombre de usuario")
+		}
+		
+		AuthManager.shared.loginUser(username: username, email: email, password: password) { succes in
+			//add GCP
+			
+			DispatchQueue.main.async {
+				if succes {
+					self.dismiss(animated: true, completion: nil)
+				}
+				else {
+					//error
+					let alert = UIAlertController(title: "Log in Error", message: "no se ha posido iniciar sesión", preferredStyle: .alert)
+					
+					alert.addAction(UIAlertAction(title: "Cancelar", style: .cancel, handler: nil))
+					
+					self.present(alert, animated: true)
+				}
+			}
+		}
 	}
 	@objc private func didTapTermButton() {
 		guard let url = URL(string: "https://www.instagram.com/terms/accept/?hl=es") else {
